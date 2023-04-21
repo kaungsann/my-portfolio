@@ -5,6 +5,10 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  position: sticky;
+  top: 0;
+
+  z-index: 5;
 }
 .ksh {
   width: 30%;
@@ -22,7 +26,7 @@
 .h1nav {
   font-style: italic;
   position: absolute;
-  top: 3%;
+  top: 30px;
   transform: translate(-30%, -30%);
   margin: 0;
   padding: 0;
