@@ -4,7 +4,10 @@ import { DiReact, DiNodejsSmall, DiStreamline } from "react-icons/di";
 export default function Service() {
   return (
     <>
-      <div className="flex flex-col justify-center w-3/5  p-4 mx-auto lg:mt-20">
+      <div
+        className="flex flex-col justify-center w-3/5  p-4 mx-auto lg:mt-20"
+        id="services"
+      >
         <h1 className="flex text-3xl font-bold mb-8 mt-6">Services</h1>
         <div className="flex justify-between">
           <div class=" mx-4 w-5/12 h-96  bg-white   rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-lg">

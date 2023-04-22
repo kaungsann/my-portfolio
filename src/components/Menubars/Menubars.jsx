@@ -39,7 +39,7 @@ export default function Menubars() {
             Home
           </div>
           <div onClick={() => scrollToSection("about", -100)}>About</div>
-          <div onClick={() => scrollToSection("service ", -100)}>Service</div>
+          <div onClick={() => scrollToSection("services", -100)}>Service</div>
           <div onClick={() => scrollToSection("projects", -100)}>Projects</div>
           <div onClick={() => scrollToSection("contact", -100)}>Contact</div>
         </div>

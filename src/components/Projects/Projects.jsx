@@ -21,7 +21,7 @@ function Projects() {
   }
 
   return (
-    <div className="tabContainer text-cyan-50 lg:mt-14 ">
+    <div className="tabContainer text-cyan-50 lg:mt-14 " id="projects">
       <div className="md:text-4xl sm:text-2xl text-2xl   lg:text-3xl flex  justify-center  py-3">
         <div className="flex underline-text ">
           <span

@@ -4,7 +4,7 @@ import icons from "../img/icon.png";
 export default function About() {
   return (
     <>
-      <div className="mx-auto w-8/12  lg:mt-14 ">
+      <div className="mx-auto w-8/12  lg:mt-14 " id="about">
         <h1 className="text-3xl mb-8 mx-28">About Me </h1>
         <div className="flex justify-center  lg:mt-8 pt-5  ">
           <div className="mb-20 lg:w-40 h-60 xl:ml-15 md:ml-10 w-96 shadow-sm lg:mr-10 ">
