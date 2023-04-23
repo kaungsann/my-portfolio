@@ -1,8 +1,12 @@
+.containers {
+  background-color: whitesmoke;
+}
+
 .navbars {
   padding: 15px;
   background-color: whitesmoke;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   cursor: pointer;
   position: sticky;
@@ -17,8 +21,10 @@
   font-weight: bolder;
 }
 .navitems {
+  color: #dc2626;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 25px;
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
   position: relative;
@@ -26,12 +32,16 @@
 .h1nav {
   font-style: italic;
   position: absolute;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   top: 30px;
   transform: translate(-30%, -30%);
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   text-transform: uppercase;
+}
+.h1nav:hover {
+  opacity: 0.8;
 }
 .navspan {
   position: relative;

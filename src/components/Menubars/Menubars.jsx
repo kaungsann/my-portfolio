@@ -20,9 +20,9 @@ export default function Menubars() {
   };
   return (
     <>
-      <div className="navbars shadow-sm">
-        <div className="ksh lg:my-4">
-          <h1 className="h1nav  lg:text-4xl items-center">
+      <div className="navbars shadow-sm lg:w-full md:w-full  lg:mx-auto md:p-3 ">
+        <div className="ksh lg:my-4 ">
+          <h1 className="h1nav  lg:text-4xl items-center md:text-3xl">
             <span className="navspan text-[#dc2626]">K</span>
             <span className="navspan text-[#dc2626]">S</span>
             <span className="navspan text-[#dc2626]">H</span>
@@ -31,17 +31,37 @@ export default function Menubars() {
             <span className="navspan dot  text-[#dc2626]">.</span>
           </h1>
         </div>
-        <div className="navitems">
+        <div className="navitems md:text-2xl md:w-9/12 md:my-4 lg:text-3xl xl:w-2/5">
           <div
             onClick={scrollToTop}
-            className="transition ease-in-out delay-150"
+            className="transition ease-in-out delay-150 hover:font-bold "
           >
             Home
           </div>
-          <div onClick={() => scrollToSection("about", -100)}>About</div>
-          <div onClick={() => scrollToSection("services", -100)}>Service</div>
-          <div onClick={() => scrollToSection("projects", -100)}>Projects</div>
-          <div onClick={() => scrollToSection("contact", -100)}>Contact</div>
+          <div
+            onClick={() => scrollToSection("about", -100)}
+            className="hover:font-bold"
+          >
+            About
+          </div>
+          <div
+            onClick={() => scrollToSection("services", -100)}
+            className="hover:font-bold"
+          >
+            Service
+          </div>
+          <div
+            onClick={() => scrollToSection("projects", -100)}
+            className="hover:font-bold"
+          >
+            Projects
+          </div>
+          <div
+            onClick={() => scrollToSection("contact", -100)}
+            className="hover:font-bold"
+          >
+            Contact
+          </div>
         </div>
       </div>
     </>

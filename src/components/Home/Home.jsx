@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <>
       <div className="homecontainer   ">
-        <div className="homepage  flex  p-6 lg:w-7/12 md:w-6/5">
-          <div className="hometext md:w-7/12">
-            <h3 className="lg:text-4xl mb-3 md:text-3xl sm:text-2xl md:w-full">
+        <div className="homepage  flex lg:flex-nowrap  p-6 xl:w-8/12 lg:w-5/12 lg:flex-row  md:w-full md:flex-wrap md:flex-col-reverse ">
+          <div className="hometext md:w-full lg:3/6 xl:w-3/6 ">
+            <h3 className="lg:text-4xl mb-3 md:text-4xl sm:text-2xl md:w-full ">
               Welcome to my porfolio
             </h3>
-            <h1 className="lg:text-4xl md:text-3xl sm:text-2xl mb-2">
+            <h1 className="lg:text-4xl md:text-3xl sm:text-3xl mb-2">
               Hi , I'm Kaungsann
             </h1>
             <div className="dynamtic_text ">
@@ -49,7 +49,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="">
+          <div className=" md:my-6 lg:2/5  p-4">
             <img src={icons} className="icon " />
           </div>
         </div>

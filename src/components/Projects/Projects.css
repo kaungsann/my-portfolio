@@ -24,3 +24,21 @@
   padding: 0 13px;
   border-radius: 7px;
 }
+@media (max-width: 992px) {
+  .text {
+    text-underline-offset: 10px;
+    font-size: 15px;
+  }
+  .projectCard {
+    border-radius: 4px;
+    padding: 7px;
+    background-color: white;
+    width: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .text {
+    text-underline-offset: 10px;
+    font-size: 20px;
+  }
+}
