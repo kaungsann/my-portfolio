@@ -10,7 +10,7 @@ function Contact() {
         <h1 className="lg:text-4xl font-medium  md:text-3xl mx-5 sm:text-4xl ">
           Gets in Touch
         </h1>
-        <div className="flex justify-center mt-3 p-5 w-full sm:flex-wrap lg:flex-nowrap">
+        <div className="flex justify-center mt-3 p-5 w-full sm:flex-wrap lg:flex-nowrap contact">
           <div className="flex flex-col  md:mx-4  md:w-full	sm:w-full sm:mb-6 xl:w-2/5 ">
             <span className=" font-medium  md:text-2xl lg:text-3xl xl:text-3xl sm:text-2xl">
               Lets talk about everythings!
@@ -18,6 +18,20 @@ function Contact() {
             <span className="text-slate-500 text-2xl mt-4  md:text-2xl lg:text-3xl">
               Don't like forms? Send me an Email
             </span>
+            <div className="flex flex-col mt-6">
+              <div className="font-medium  md:text-2xl lg:text-3xl xl:text-3xl sm:text-2xl">
+                Contact Me
+              </div>
+              <span className="text-slate-500  text-2xl  md:text-2xl lg:text-3xl mt-4">
+                Name - Kaung San Hein
+              </span>
+              <span className="text-slate-500 text-2xl mt-4  md:text-2xl lg:text-3xl">
+                Email - kaungsanh53@gmail.com
+              </span>
+              <span className="text-slate-500 text-2xl mt-4  md:text-2xl lg:text-3xl">
+                phone - 09956265804
+              </span>
+            </div>
           </div>
           <div className="flex flex-col p-5 justify-center lg:w-3/6  xl:w-3/5 md:w-full sm:w-full sm:mt-4">
             <input

@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Menubars.css";
+import { AiOutlineMenuFold, AiOutlineHome } from "react-icons/ai";
+import { BiBriefcaseAlt2 } from "react-icons/bi";
+import { BsLayers } from "react-icons/bs";
+
+import { MdOutlineDesignServices } from "react-icons/md";
+import { GrChat } from "react-icons/gr";
 
 export default function Menubars() {
+  const [side, setSide] = useState(false);
   const scrollToTop = (offset = 0) => {
     window.scrollTo({
       top: 0 + offset,
@@ -34,35 +41,46 @@ export default function Menubars() {
         <div className="navitems md:text-2xl md:w-9/12 md:my-4 lg:text-3xl xl:w-2/5">
           <div
             onClick={scrollToTop}
-            className="transition ease-in-out delay-150 hover:font-bold "
+            className="transition ease-in-out delay-150 hover:font-bold scroll-smooth"
           >
             Home
           </div>
           <div
             onClick={() => scrollToSection("about", -100)}
-            className="hover:font-bold"
+            className="hover:font-bold scroll-smooth"
           >
             About
           </div>
           <div
             onClick={() => scrollToSection("services", -100)}
-            className="hover:font-bold"
+            className="hover:font-bold scroll-smooth"
           >
             Service
           </div>
           <div
             onClick={() => scrollToSection("projects", -100)}
-            className="hover:font-bold"
+            className="hover:font-bold scroll-smooth"
           >
             Projects
           </div>
           <div
             onClick={() => scrollToSection("contact", -100)}
-            className="hover:font-bold"
+            className="hover:font-bold scroll-smooth"
           >
             Contact
           </div>
         </div>
+      </div>
+
+      <div className="iconContainer invisible">
+        <button className="text-4xl ">
+          <AiOutlineMenuFold />
+        </button>
+        <AiOutlineHome />
+        <BiBriefcaseAlt2 />
+        <MdOutlineDesignServices />
+        <BsLayers />
+        <GrChat />
       </div>
     </>
   );

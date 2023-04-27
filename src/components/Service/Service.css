@@ -8,3 +8,16 @@
 .database {
   font-size: 125px;
 }
+.card {
+  width: 480px;
+  height: 450px;
+  text-overflow: ellipsis;
+  overflow-y: scroll;
+  cursor: pointer;
+}
+.card::-webkit-scrollbar {
+  width: 0.5em;
+}
+.service {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

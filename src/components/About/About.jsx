@@ -4,19 +4,43 @@ import icons from "../img/icon.png";
 export default function About() {
   return (
     <>
-      <div className="mx-auto lg:w-8/12 md:w-full md:p-4  lg:mt-14 " id="about">
-        <h1 className="text-3xl mb-8 lg:mx-28 items-start md:ml-4">About Me</h1>
+      <div
+        className="mx-auto lg:w-8/12 md:w-full md:p-4  about lg:mt-14  "
+        id="about"
+      >
+        <h1 className="md:text-3xl mb-8 lg:mx-28 items-start md:ml-4  lg:text-4xl">
+          About Me
+        </h1>
         <div className="flex justify-center  lg:mt-8 pt-5 md:flex-wrap md:w-full lg:flex-nowrap xl:flex-nowrap ">
           <div className="mb-20 lg:w-40 h-60 xl:ml-15 md:ml-10  shadow-sm lg:mr-10 ">
-            <img src={icons} className=" pb-10" />
+            {/* <img src={icons} className=" pb-10" /> */}
           </div>
           <div className="lg:flex-nowrap xl:flex-nowrap flex justify-evenly bg-slate-100 shadow-sm rounded-lg pt-4 lg:w-10/12 lg:mr-10 lg:ml-30 md:w-full md:flex-wrap">
             <div className="w-1/3 mx-10 flex flex-col justify-start items:start md:w-8/12 lg:w-2/5">
               <span className="text-xl lg:mb-5 lg:pt-5 ">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Numquam aperiam magnam debitis quos vero alias nostrum tempore
-                neque. Eveniet est eos quasi dolorem reiciendis dolore rerum
-                repellat perferendis numquam. Aut?
+                {/* Skills: Proficient in HTML, CSS, and JavaScript, with experience
+                using React for front-end development Skilled in Node.js and
+                MongoDB for back-end development and database management
+                Familiar with Git for version control and collaborative
+                development Experienced in building responsive and user-friendly
+                web applications Continuously learning and staying up-to-date
+                with new technologies and trends in web developme */}
+                As a botany student in my final year at Dagon University, I have
+                always been passionate about learning and expanding my knowledge
+                in different areas. Recently, I decided to pursue a career in
+                web development, and I have been teaching myself MERN stack
+                development. Although I am relatively new to the field, I am
+                excited to continue building my skills and knowledge. Before
+                delving into web development, I worked in a call center for
+                three years at a telecom company. Although I did not
+                particularly enjoy the position, it allowed me to gain valuable
+                experience in communication and customer service. These skills
+                have proven to be useful in my current pursuit of web
+                development, as effective communication is essential in any
+                role. Overall, I am a hard-working and driven individual who is
+                always eager to learn and grow. I am committed to continuously
+                improving my skills and staying up-to-date with the latest
+                industry trends and technologies.
               </span>
               <button className="dwbtn w-32 p-2 bg-red-500 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-red-500 duration-300 text-violet-100 font-bold  mt-5 rounded-md flex justify-start  items-center ">
                 Download CV

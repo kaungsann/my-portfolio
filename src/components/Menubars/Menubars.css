@@ -1,7 +1,9 @@
 .containers {
   background-color: whitesmoke;
 }
-
+.menuicons {
+  display: none;
+}
 .navbars {
   padding: 15px;
   background-color: whitesmoke;
@@ -99,5 +101,16 @@
   }
   50% {
     transform: translateY(0px);
+  }
+}
+
+@media (max-width: 600px) {
+  .navitems {
+    display: none;
+  }
+  .menuicon {
+    position: absolute;
+    left: 0;
+    top: 0;
   }
 }
