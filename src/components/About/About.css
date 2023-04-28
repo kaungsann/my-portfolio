@@ -11,3 +11,46 @@
 .about {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+@media (max-width: 600px) {
+  .about {
+    font-size: 35px;
+    margin-left: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .aboutcontainer {
+    width: 100%;
+  }
+  .textandicons {
+    flex-wrap: wrap-reverse;
+    width: 100%;
+  }
+
+  .dwbtn {
+    width: 150px;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+  }
+  .abouttext {
+    font-size: 5px;
+    width: 100%;
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+  .progressbar {
+    width: 80%;
+  }
+  .bars {
+    margin-bottom: 15px;
+  }
+  .bartext {
+    font-size: 23px;
+
+    margin-bottom: 15px;
+  }
+  .html {
+    width: 80%;
+  }
+}

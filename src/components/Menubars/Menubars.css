@@ -113,4 +113,13 @@
     left: 0;
     top: 0;
   }
+  .h1nav {
+    position: absolute;
+    left: 60px;
+    top: 34px;
+    font-size: 32px;
+  }
+  .navbars {
+    padding-bottom: 50px;
+  }
 }

@@ -5,12 +5,14 @@ export default function Service() {
   return (
     <>
       <div
-        className="flex flex-col justify-center xl:w-3/5  p-4 mx-auto lg:mt-20 md:w-full md:mb-28"
+        className="flex flex-col justify-center xl:w-3/5  p-4 mx-auto lg:mt-20 md:w-full md:mb-28 mt-4"
         id="services"
       >
-        <h1 className="flex text-3xl font-bold mb-8 mt-6">Services</h1>
-        <div className="flex justify-between md:w-full md:justify-evenly lg:justify-between ">
-          <div class=" card bg-white   rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-lg">
+        <h1 className="flex lg:text-3xl font-bold lg:mb-8 mt-6 service">
+          Services
+        </h1>
+        <div className="flex justify-between md:w-full md:justify-evenly lg:justify-between servicebox">
+          <div class="mx-4  card bg-white   rounded-lg px-6 py-8 pb-3 ring-1 ring-slate-900/5 shadow-lg">
             <div className="mt-2 ">
               <span class="">
                 <DiReact className="react" />
@@ -19,7 +21,7 @@ export default function Service() {
             <h3 class=" text-3xl dark:text-white mt-5  font-medium tracking-tight ">
               Fronted
             </h3>
-            <p class="text-slate-500 dark:text-slate-400 mt-2  text-2xl   service">
+            <p class="text-slate-500 dark:text-slate-400 mt-2  text-2xl   service ">
               ReactJS, incorporating features such as state management with
               useState, event handling, and conditional rendering. Created
               reusable components for each section of the form and implemented
@@ -32,7 +34,7 @@ export default function Service() {
               project."
             </p>
           </div>
-          <div class=" mx-4  bg-white card  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-lg">
+          <div class=" mx-4  bg-white card  rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-lg pb-3">
             <div>
               <span class="inline-flex rounded-xl items-center justify-center p-2 ">
                 <DiNodejsSmall className="text-green-600  nodejs" />
@@ -52,7 +54,7 @@ export default function Service() {
               short-term project."
             </p>
           </div>
-          <div class=" mx-4 card bg-white  card dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-lg">
+          <div class=" mx-4 card bg-white  card dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 pb-3 ring-slate-900/5 shadow-lg">
             <div>
               <span class="inline-flex items-center justify-center p-2 ">
                 <DiStreamline className="database text-blue-400" />

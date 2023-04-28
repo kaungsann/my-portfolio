@@ -25,10 +25,10 @@ function Projects() {
       className="tabContainer text-cyan-50 lg:mt-14 md:mt-6 md:w-full "
       id="projects"
     >
-      <div className="md:text-4xl sm:text-2xl text-2xl  md:flex-wrap lg:text-3xl flex  justify-center  py-3">
-        <div className="flex underline-text ">
+      <div className=" md:text-4xl sm:text-2xl text-2xl  md:flex-wrap lg:text-3xl flex  justify-center  py-3">
+        <div className="flex underline-text textcontainer">
           <span
-            className="mx-14 text md:text-3xl"
+            className="lg:mx-14 md:mx-10 text md:text-3xl projects"
             style={{
               color: color1,
               textDecoration: selectedText ? "underline" : "none",
@@ -45,17 +45,17 @@ function Projects() {
               textDecoration: !selectedText ? "underline" : "none",
               textDecorationThickness: !selectedText ? "3px" : "none",
             }}
-            className="mx-14 text md:text-3xl"
+            className="lg:mx-14 md:mx-10 text md:text-3xl teamstext"
             onClick={handleClick2}
           >
-            Colloborate with team project
+            Colloborate projects
           </span>
         </div>
       </div>
 
       <>
         {showText && (
-          <div className=" lg:mx-auto  mt-6 flex justify-evenly p-10 md:flex-wrap md:w-full lg:w-10/12">
+          <div className=" lg:mx-auto  mt-6 flex justify-evenly p-10 md:flex-wrap md:w-full lg:w-10/12 projectBox">
             <div className="projectCard shadow-lg md:my-6">
               <img src={img} className="primg w-full shadow-lg h-60" />
               <p className="text-2xl my-4  text-gray-950 border-slate-950">
@@ -83,7 +83,7 @@ function Projects() {
                 </button>
               </div>
             </div>
-            <div className="projectCard mx-8 shadow-lg md:my-6">
+            <div className="projectCard lg:mx-8 shadow-lg md:my-6">
               <img src={rest} className="primg w-full  h-60 reimg" />
               <p className="text-2xl my-4  text-gray-950">Static Restaurant</p>
               <div>
@@ -133,7 +133,7 @@ function Projects() {
                 </button>
               </div>
             </div>
-            <div className="projectCard mx-8 shadow-lg md:my-6">
+            <div className="projectCard lg:mx-8 shadow-lg md:my-6">
               <img src={rest} className="primg w-full  h-60 reimg" />
               <p className="text-2xl my-4  text-gray-950">Static Restaurant</p>
               <div>
@@ -159,7 +159,7 @@ function Projects() {
           </div>
         )}
         {!showText && (
-          <div className="lg:w-4/6  lg:mx-auto mt-6 flex justify-evenly p-10 md:flex-wrap md:w-full">
+          <div className="projectBox lg:w-4/6  lg:mx-auto mt-6 flex justify-evenly p-10 md:flex-wrap md:w-full">
             <div className="projectCard shadow-lg md:my-6">
               <img src={img} className="primg w-full shadow-lg h-60" />
               <p className="text-2xl my-4  text-gray-950 border-slate-950">
@@ -187,7 +187,7 @@ function Projects() {
                 </button>
               </div>
             </div>
-            <div className="projectCard mx-8 shadow-lg md:my-6">
+            <div className="projectCard lg:mx-8 shadow-lg md:my-6">
               <img src={rest} className="primg w-full  h-60 reimg" />
               <p className="text-2xl my-4  text-gray-950">Static Restaurant</p>
               <div>
