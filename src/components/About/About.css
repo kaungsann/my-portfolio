@@ -11,9 +11,15 @@
 .about {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+.ksimage {
+  border-radius: 50px;
+  width: 200px;
+  height: 250px;
+}
 @media (max-width: 600px) {
   .about {
-    font-size: 35px;
+    font-size: 25px;
     margin-left: 30px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -23,34 +29,40 @@
     width: 100%;
   }
   .textandicons {
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     width: 100%;
   }
-
+  .ksimg {
+    margin-bottom: 30px;
+  }
   .dwbtn {
-    width: 150px;
+    width: 120px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
+    margin-bottom: 50px;
   }
   .abouttext {
     font-size: 5px;
     width: 100%;
-    font-size: 23px;
+    font-size: 18px;
     margin-bottom: 20px;
   }
   .progressbar {
     width: 80%;
   }
   .bars {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .bartext {
-    font-size: 23px;
+    font-size: 18px;
 
     margin-bottom: 15px;
   }
   .html {
     width: 80%;
+  }
+  .css {
+    width: 70%;
   }
 }

@@ -39,7 +39,7 @@
 @media (max-width: 600px) {
   .text {
     text-underline-offset: 10px;
-    font-size: 25px;
+    font-size: 20px;
   }
   .textcontainer {
     margin: 0 auto;
@@ -55,9 +55,10 @@
   }
   .projectCard {
     border-radius: 7px;
-    width: 95%;
+    width: 100%;
     margin-bottom: 35px;
   }
+
   .tabContainer {
     margin-top: 30px;
   }

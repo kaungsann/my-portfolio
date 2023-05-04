@@ -5,7 +5,7 @@
 }
 
 .homepage {
-  margin-top: 50px;
+  margin-top: 40px;
   width: 70%;
   display: flex;
   justify-content: space-between;
@@ -17,9 +17,9 @@
   font-size: larger;
   padding: 30px;
 }
-.icon {
-  width: 450px;
-  height: 300px;
+.iconimg {
+  width: 550px;
+  height: 450px;
   z-index: 3;
 }
 .icons {
@@ -78,28 +78,40 @@ h1 {
   .homepage {
     flex-wrap: wrap-reverse;
     width: 100%;
-    margin: 0 auto;
+    margin-top: 3px;
   }
+
   .hometext {
     width: 100%;
+    padding: 15px;
   }
+
   .welcome {
-    font-size: 35px;
+    font-size: 25px;
   }
   .hi {
-    font-size: 32px;
+    font-size: 25px;
   }
   .dynamtic_text {
     color: #dc2626;
     font-weight: 500;
-    font-size: 32px;
-    width: 80%;
+    font-size: 25px;
+    width: 100%;
   }
+
   .fonttext {
-    font-size: 23px;
+    font-size: 18px;
     margin-top: 14px;
   }
+
+  .icons {
+    font-size: 25px;
+  }
   .iconscontainer {
-    margin-top: 35px;
+    margin-top: 30px;
+  }
+  .imgbox {
+    margin-bottom: 30px;
+    margin-top: 2px;
   }
 }

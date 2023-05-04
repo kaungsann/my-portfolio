@@ -1,5 +1,36 @@
-@media (min-width: 600px) {
-}
 .contact {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+@media (max-width: 600px) {
+  .contactbox {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .get {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+  .contacttext {
+    font-size: 20px;
+  }
+  .contactinput {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+  .inputbox {
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 0.2 solid #cbd5e1;
+  }
+  .sendbtn {
+    width: 100%;
+    text-align: center;
+  }
+  .send {
+    font-size: 18px;
+    margin: 0 auto;
+  }
 }
