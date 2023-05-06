@@ -14,16 +14,16 @@ export default function Service() {
         </h1>
         <Bounce bottom>
           <div className="flex justify-between md:w-full md:justify-evenly lg:justify-between servicebox">
-            <div class="mx-4  card bg-white   rounded-md px-6 py-8 pb-3 ring-1 ring-slate-900/5 shadow-lg">
+            <div class="mx-4  card   rounded-md px-6 py-8 pb-3 ring-1 ring-slate-900/5 shadow-lg">
               <div className="mt-2 ">
                 <span class="">
                   <DiReact className="react" />
                 </span>
               </div>
-              <h3 class=" lg:text-3xl md:text-3xl dark:text-white mt-5  font-medium tracking-tight textsize ">
+              <h3 class=" lg:text-3xl md:text-3xl text-slate-100 mt-5  font-medium tracking-tight textsize ">
                 Fronted
               </h3>
-              <p class="text-slate-500 dark:text-slate-400 mt-2  lg:text-2xl md:text-2xl   service ">
+              <p class="text-slate-300 mt-2  lg:text-2xl md:text-2xl   service ">
                 ReactJS, incorporating features such as state management with
                 useState, event handling, and conditional rendering. Created
                 reusable components for each section of the form and implemented
@@ -37,16 +37,16 @@ export default function Service() {
               </p>
             </div>
 
-            <div class=" mx-4  bg-white card  rounded-md px-6 py-8 ring-1 ring-slate-900/5 shadow-lg pb-3">
+            <div class=" mx-4 card  rounded-md px-6 py-8 ring-1 ring-slate-900/5 shadow-lg pb-3">
               <div>
                 <span class="inline-flex rounded-xl items-center justify-center p-2 ">
                   <DiNodejsSmall className="text-green-600  nodejs" />
                 </span>
               </div>
-              <h3 class="lg:text-3xl md:text-3xl dark:text-white mt-5  font-medium tracking-tight textsize">
+              <h3 class="lg:text-3xl md:text-3xl mt-5 text-slate-100  font-medium tracking-tight textsize">
                 Backend
               </h3>
-              <p class="text-slate-500 dark:text-slate-400 mt-2 lg:text-2xl md:text-2xl  service">
+              <p class="text-slate-300 mt-2 lg:text-2xl md:text-2xl  service">
                 Node.js, building the backend API and database to handle user
                 data. Utilized the Express.js framework for efficient routing
                 and middleware handling, and integrated MongoDB for data storage
@@ -58,16 +58,16 @@ export default function Service() {
               </p>
             </div>
 
-            <div class=" mx-4 card bg-white  card dark:bg-slate-900 rounded-md px-6 py-8 ring-1 pb-3 ring-slate-900/5 shadow-lg">
+            <div class=" mx-4 card   card dark:bg-slate-900 rounded-md px-6 py-8 ring-1 pb-3 ring-slate-900/5 shadow-lg">
               <div>
                 <span class="inline-flex items-center justify-center p-2 ">
                   <DiStreamline className="database text-blue-400" />
                 </span>
               </div>
-              <h3 class="lg:text-3xl md:text-3xl dark:text-white mt-5  font-medium tracking-tight textsize">
+              <h3 class="lg:text-3xl md:text-3xl text-slate-100  mt-5  font-medium tracking-tight textsize">
                 Database
               </h3>
-              <p class="text-slate-500 dark:text-slate-400 mt-2  lg:text-2xl md:text-2xl service">
+              <p class="text-slate-300 mt-2  lg:text-2xl md:text-2xl service">
                 NoSQL MongoDB for data storage and retrieval. Utilized the
                 Mongoose.js library for Object Data Modeling (ODM) and schema
                 validation, and Built the backend API using Node.js and the

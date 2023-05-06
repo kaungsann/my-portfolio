@@ -6,16 +6,20 @@ import About from "./components/About/About";
 import Service from "./components/Service/Service";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
       <Menubars />
-      <Home />
-      <About />
-      <Service />
-      <Projects />
-      <Contact />
+      <div className="App">
+        <Home />
+        <About />
+        <Service />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import ksh from "../img/ksh.jpg";
 import Slide from "react-reveal/Slide";
-import cv from "./kshCV.pdf";
+import cv from "./ksh_cv.pdf";
 export default function About() {
   return (
     <>

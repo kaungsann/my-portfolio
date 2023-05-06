@@ -92,6 +92,9 @@ h1 {
   .hi {
     font-size: 25px;
   }
+  .welcome {
+    font-size: 25px;
+  }
   .dynamtic_text {
     color: #dc2626;
     font-weight: 500;

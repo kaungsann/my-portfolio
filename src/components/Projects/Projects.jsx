@@ -122,17 +122,19 @@ function Projects() {
                   News Media Site
                 </p>
                 <div>
-                  <span className="mt-2 text-lg  text-gray-950">
+                  <span className="mt-2 text-xl  text-gray-950">
                     Use Technologies
                   </span>
                   <div className="flex text-sm  mt-2">
-                    <div className=" text-gray-950">
+                    <div className=" text-gray-950 text-lg">
                       React/Redux & Nodejs & Expressjs & Mongodb
                     </div>
                   </div>
                 </div>
-                <div className="mt-2 mb-4  text-4xl">
-                  <h3 className="text-slate-600 text-4xl">Coming Soon ...</h3>
+                <div className="mt-2 mb-4  md:text-2xl lg:text-3xl">
+                  <h3 className="text-slate-600 lg:text-3xl come">
+                    Coming Soon ...
+                  </h3>
                 </div>
               </div>
             </Fade>
@@ -143,15 +145,17 @@ function Projects() {
                   E-commerce Web App
                 </p>
                 <div>
-                  <span className="mt-2 text-lg  text-gray-950">
+                  <span className="mt-2 text-xl  text-gray-950">
                     Use Technologies
                   </span>
-                  <div className="flex text-sm  mt-2  text-gray-950">
+                  <div className="flex  mt-2  text-gray-950 text-lg">
                     <div className="">React & Nodejs & Expressjs & Mongodb</div>
                   </div>
                 </div>
                 <div className="mt-2 mb-4  text-4xl">
-                  <h3 className="text-slate-600 text-4xl">Coming Soon ...</h3>
+                  <h3 className="text-slate-600 come lg:text-3xl">
+                    Coming Soon ...
+                  </h3>
                 </div>
               </div>
             </Fade>
@@ -175,8 +179,10 @@ function Projects() {
                     </div>
                   </div>
                 </div>
-                <div className="mt-2 mb-4  text-4xl">
-                  <h3 className="text-slate-600 text-4xl">Coming Soon ...</h3>
+                <div className="mt-2 mb-4  md:text-2xl lg:text-3xl">
+                  <h3 className="text-slate-600 lg:text-3xl come">
+                    Coming Soon ...
+                  </h3>
                 </div>
               </div>
             </Fade>
@@ -192,8 +198,10 @@ function Projects() {
                     <div className="">React & Nodejs & Expressjs & Mongodb</div>
                   </div>
                 </div>
-                <div className="mt-2 mb-4  text-4xl">
-                  <h3 className="text-slate-600 text-4xl">Coming Soon ...</h3>
+                <div className="mt-2 mb-4  md:text-2xl lg:text-3xl">
+                  <h3 className="text-slate-600 lg:text-3xl come">
+                    Coming Soon ...
+                  </h3>
                 </div>
               </div>
             </Fade>
