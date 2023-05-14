@@ -1,6 +1,6 @@
 import React from "react";
 import "./Service.css";
-import Bounce from "react-reveal/Bounce";
+import Slide from "react-reveal/Slide";
 import { DiReact, DiNodejsSmall, DiStreamline } from "react-icons/di";
 export default function Service() {
   return (
@@ -12,7 +12,7 @@ export default function Service() {
         <h1 className="flex lg:text-4xl md:text-3xl lg:mb-8 mt-6 servicetext">
           Services
         </h1>
-        <Bounce bottom>
+        <Slide bottom>
           <div className="flex justify-between md:w-full md:justify-evenly lg:justify-between servicebox">
             <div class="mx-4  card   rounded-md px-6 py-8 pb-3 ring-1 ring-slate-900/5 shadow-lg">
               <div className="mt-2 ">
@@ -78,7 +78,7 @@ export default function Service() {
               </p>
             </div>
           </div>
-        </Bounce>
+        </Slide>
       </div>
     </>
   );
