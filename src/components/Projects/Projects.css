@@ -11,6 +11,10 @@
 .line {
   height: 0.5px;
 }
+.btnlink {
+  border-radius: 7px;
+  padding: 6px;
+}
 .projectCard {
   border-radius: 7px;
   padding: 10px;

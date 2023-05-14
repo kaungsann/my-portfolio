@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./Projects.css";
+import music from "../img/music.jpg";
 import img from "../img/images.jpeg";
 import rest from "../img/restaurant.png";
+import mv from "../img/movie.png";
 import Fade from "react-reveal/Fade";
 function Projects() {
   const [showText, setShowText] = useState(true);
@@ -59,7 +61,7 @@ function Projects() {
           <div className=" lg:mx-auto  mt-6 flex justify-evenly p-10 md:flex-wrap md:w-full lg:w-10/12 projectBox">
             <Fade left>
               <div className="projectCard shadow-md md:my-6">
-                <img src={img} className="primg w-full shadow-lg h-60" />
+                <img src={music} className="primg w-full shadow-lg h-60" />
                 <p className="text-2xl my-4  text-gray-950 border-slate-950">
                   Music Player
                 </p>
@@ -69,7 +71,7 @@ function Projects() {
                   </span>
                   <div className="flex text-sm  mt-2">
                     <div className=" text-gray-950">
-                      React & Nodejs & Expressjs & Mongodb
+                      HTML & CSS & JAVASCRIPT
                     </div>
                   </div>
                 </div>
@@ -131,10 +133,18 @@ function Projects() {
                     </div>
                   </div>
                 </div>
-                <div className="mt-2 mb-4  md:text-2xl lg:text-3xl">
-                  <h3 className="text-slate-600 lg:text-3xl come">
+                <div className="mt-2 mb-4  md:text-2xl lg:text-3xl flex items-center">
+                  <h3 className="text-slate-600 lg:text-2xl come">
                     Coming Soon ...
                   </h3>
+                  <button className="bg-red-600 btnlink border-t-emerald-200 mx-4 hover:bg-red-500 ">
+                    <a
+                      href="https://github.com/kaungsann/MM_NEWS"
+                      className="text-lg items-center"
+                    >
+                      Source Code
+                    </a>
+                  </button>
                 </div>
               </div>
             </Fade>
@@ -152,10 +162,18 @@ function Projects() {
                     <div className="">React & Nodejs & Expressjs & Mongodb</div>
                   </div>
                 </div>
-                <div className="mt-2 mb-4  text-4xl">
-                  <h3 className="text-slate-600 come lg:text-3xl">
+                <div className="mt-3 mb-4  md:text-2xl lg:text-3xl flex items-center ">
+                  <h3 className="text-slate-600 lg:text-2xl come">
                     Coming Soon ...
                   </h3>
+                  <button className="bg-red-600 btnlink border-t-emerald-200 mx-4 hover:bg-red-500 ">
+                    <a
+                      href="https://github.com/kaungsann/ecomnodjs"
+                      className="text-lg items-center "
+                    >
+                      Source Code
+                    </a>
+                  </button>
                 </div>
               </div>
             </Fade>
@@ -165,7 +183,7 @@ function Projects() {
           <div className="projectBox lg:w-4/6  lg:mx-auto mt-6 flex justify-evenly p-10 md:flex-wrap md:w-full">
             <Fade right>
               <div className="projectCard shadow-lg md:my-6">
-                <img src={img} className="primg w-full shadow-lg h-60" />
+                <img src={mv} className="primg w-full shadow-lg h-60" />
                 <p className="text-2xl my-4  text-gray-950 border-slate-950">
                   Movies Web App
                 </p>
@@ -179,10 +197,16 @@ function Projects() {
                     </div>
                   </div>
                 </div>
-                <div className="mt-2 mb-4  md:text-2xl lg:text-3xl">
-                  <h3 className="text-slate-600 lg:text-3xl come">
-                    Coming Soon ...
-                  </h3>
+                <div className="mt-2 mb-4">
+                  <button className="bg-red-600 p-2 btn border-t-emerald-200 hover:bg-red-500 ">
+                    <a href="https://ycd-movie.netlify.app/">Demo</a>
+                  </button>
+
+                  <button className="bg-red-600 p-2 btn border-t-emerald-200 mx-3 hover:bg-red-500 ">
+                    <a href="https://github.com/kaungsann/Movie_Team">
+                      Source Code
+                    </a>
+                  </button>
                 </div>
               </div>
             </Fade>
