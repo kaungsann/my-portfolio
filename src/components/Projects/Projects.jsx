@@ -128,7 +128,7 @@ function Projects() {
                     Use Technologies
                   </span>
                   <div className="flex text-sm  mt-2">
-                    <div className=" text-gray-950 text-lg">
+                    <div className=" text-gray-950 lg:text-lg sm:text-sm">
                       React/Redux & Nodejs & Expressjs & Mongodb
                     </div>
                   </div>
@@ -158,7 +158,7 @@ function Projects() {
                   <span className="mt-2 text-xl  text-gray-950">
                     Use Technologies
                   </span>
-                  <div className="flex  mt-2  text-gray-950 text-lg">
+                  <div className="flex  mt-2  text-gray-950 lg:text-lg sm:text-sm">
                     <div className="">React & Nodejs & Expressjs & Mongodb</div>
                   </div>
                 </div>
