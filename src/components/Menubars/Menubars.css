@@ -1,6 +1,9 @@
 .containers {
   background-color: whitesmoke;
 }
+body {
+  overflow-x: hidden;
+}
 .menuicons {
   display: none;
 }
@@ -139,11 +142,12 @@
     display: block;
     z-index: 8;
     padding: 10px;
-    position: absolute;
-    right: 0;
+    position: fixed;
     top: 0;
+    right: 0;
     background-color: whitesmoke;
   }
+
   .iconsbox {
     height: 70%;
     display: flex;

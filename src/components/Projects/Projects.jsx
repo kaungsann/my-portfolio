@@ -69,7 +69,7 @@ function Projects() {
                   <span className="mt-2 text-lg  text-gray-950">
                     Use Technologies
                   </span>
-                  <div className="flex text-sm  mt-2">
+                  <div className="flex text-lg  mt-2">
                     <div className=" text-gray-950">
                       HTML & CSS & JAVASCRIPT
                     </div>
@@ -100,7 +100,7 @@ function Projects() {
                   <span className="mt-2 text-lg  text-gray-950">
                     Use Technologies
                   </span>
-                  <div className="flex text-sm  mt-2  text-gray-950">
+                  <div className="flex text-lg  mt-2  text-gray-950">
                     <div className="">HTML & Css & JS</div>
                   </div>
                 </div>
@@ -133,11 +133,11 @@ function Projects() {
                     </div>
                   </div>
                 </div>
-                <div className="mt-2 mb-4  md:text-2xl lg:text-3xl flex items-center">
+                <div className="mt-2 mb-4    flex items-center">
                   <h3 className="text-slate-600 lg:text-2xl come">
                     Coming Soon ...
                   </h3>
-                  <button className="bg-red-600 btnlink border-t-emerald-200 mx-4 hover:bg-red-500 ">
+                  <button className="bg-red-600 p-2 btn border-t-emerald-200 mx-3 hover:bg-red-500 ">
                     <a
                       href="https://github.com/kaungsann/MM_NEWS"
                       className="text-lg items-center"
@@ -162,11 +162,11 @@ function Projects() {
                     <div className="">React & Nodejs & Expressjs & Mongodb</div>
                   </div>
                 </div>
-                <div className="mt-3 mb-4  md:text-2xl lg:text-3xl flex items-center ">
+                <div className="mt-3 mb-4   flex items-center ">
                   <h3 className="text-slate-600 lg:text-2xl come">
                     Coming Soon ...
                   </h3>
-                  <button className="bg-red-600 btnlink border-t-emerald-200 mx-4 hover:bg-red-500 ">
+                  <button className="bg-red-600 p-2 btn border-t-emerald-200 mx-3 hover:bg-red-500 ">
                     <a
                       href="https://github.com/kaungsann/ecomnodjs"
                       className="text-lg items-center "
