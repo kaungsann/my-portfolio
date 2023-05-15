@@ -1,8 +1,0 @@
-body {
-  background-color: whitesmoke;
-}
-@media (max-width: 600px) {
-  .App {
-    overflow-x: hidden;
-  }
-}
