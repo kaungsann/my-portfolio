@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Bounce top>
-        <div className="homecontainer">
+        <div className="homecontainer ">
           <div className="homepage  flex lg:flex-nowrap  p-6 xl:w-8/12 lg:w-5/12 lg:flex-row  md:w-full md:flex-wrap md:flex-col-reverse ">
             <div className="hometext md:w-full lg:3/6 xl:w-3/6 ">
               <h3 className="lg:text-4xl mb-3 md:text-4xl sm:text-2xl md:w-full welcome font-bold font-serif">
